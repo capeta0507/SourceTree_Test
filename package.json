@@ -1,0 +1,23 @@
+{
+  "name": "sourcetree_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/capeta0507/SourceTree_Test.git"
+  },
+  "keywords": [],
+  "author": "davidtpe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/capeta0507/SourceTree_Test/issues"
+  },
+  "homepage": "https://github.com/capeta0507/SourceTree_Test#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}
