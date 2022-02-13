@@ -8,6 +8,9 @@ const PORT = process.env.PORT || 8080;
 app.get('/',(req,res)=>{
   res.send("Node.js + Express")
 })
+app.get('/hello',(req,res)=>{
+  res.send("<h1>Hello new Get</h1>");
+})
 app.listen(PORT,()=>{
   console.log(`Running on http://localhost:${PORT}`);
 });
