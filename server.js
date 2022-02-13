@@ -11,6 +11,9 @@ app.get('/',(req,res)=>{
 app.get('/hello',(req,res)=>{
   res.send("<h1>Hello new Get</h1>");
 })
+app.post('/worldpost',(req,res)=>{
+  res.send("<h1>Hello worldpost</h1>");
+})
 app.listen(PORT,()=>{
   console.log(`Running on http://localhost:${PORT}`);
 });
